@@ -1,4 +1,4 @@
-# iYouth MIS Data Model Refactor
+# Power Bi Data Model Refactor
 
 > Refactoring a dataset with data quality and modelling limitations into a robust, analytics-ready MIS system (SQL Server + Power BI)
 ## Overview
