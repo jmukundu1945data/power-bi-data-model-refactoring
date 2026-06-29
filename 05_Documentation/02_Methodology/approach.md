@@ -22,7 +22,7 @@ Key activities included:
 **Outcome:**
 
 * Clear identification of data quality issues
-* Understanding of inconsistencies and structural weaknesses
+* Understanding of inconsistencies and data quality limitations
 * Baseline for redesign
 
 ---

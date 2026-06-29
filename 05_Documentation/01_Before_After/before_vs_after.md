@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the transformation of a poorly structured Monitoring & Evaluation (M&E) dataset into a robust, analytics-ready Management Information System (MIS).
+This project demonstrates the transformation of a Monitoring & Evaluation (M&E) dataset with data quality and modelling limitations into a robust, analytics-ready Management Information System (MIS).
 
 The original dataset exhibited multiple data quality and structural issues that limited its usefulness for reporting, decision-making, and performance tracking. A complete redesign was undertaken to establish a reliable data model aligned with best practices in MIS and analytics engineering.
 
@@ -86,13 +86,13 @@ The system relied on a single wide table:
 
 **Impact:**
 
-* Poor performance
+* Limited reporting readiness
 * Limited scalability
 * Complex and error-prone reporting logic
 
 ---
 
-## 6. Weak Reporting Layer
+## 6. Non-Standardized Reporting Layer
 
 Due to the issues above:
 

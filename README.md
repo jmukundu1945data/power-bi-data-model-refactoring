@@ -1,13 +1,14 @@
 # iYouth MIS Data Model Refactor
 
+> Refactoring a dataset with data quality and modelling limitations into a robust, analytics-ready MIS system (SQL Server + Power BI)
 ## Overview
-This project demonstrates the redesign of a poorly structured M&E dataset into a robust, analytics-ready MIS system.
+This project demonstrates the redesign of an M&E dataset with legacy reporting constraints into a robust, analytics-ready MIS system.
 
 The original dataset contained:
 - Duplicate participant records
 - Inconsistent categorical values (Commodity, Gender, etc.)
-- Poorly defined grain
-- Weak reporting structure
+- Undefined analytical grain
+- Non-standardized reporting structure
 
 ## Solution
 The system was refactored using:
@@ -64,3 +65,11 @@ This project demonstrates capability to design and implement robust MIS systems 
 
 **After (Structured MIS Dashboard)**  
 ![After Dashboard](04_PowerBI/Screenshots/dashboard_after.png)
+
+## Project Structure
+
+01_Source_Data/ → Source data folder reserved for sample/raw data
+02_SQL_Transformation/ → Data cleaning, deduplication, and fact build scripts
+03_Data_Model/ → Star schema design and model screenshots
+04_PowerBI/ → Dashboard screenshots and visual outputs
+05_Documentation/ → Methodology, DAX, and design documentation
